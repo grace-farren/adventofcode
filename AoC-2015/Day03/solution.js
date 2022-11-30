@@ -65,7 +65,7 @@ function housesVisitedByRobo() {
     if (instruction === "<") x--;
     roboVisited[[x, y]] = true;
   }
-  console.log(Object.keys(roboVisited));
+  // console.log(Object.keys(roboVisited));
 }
-// console.log(Object.keys(visited).length);
+console.log(Object.keys(visited).length);
 housesVisitedByRobo();
